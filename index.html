@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Custom Print Services for Clothing & Accessories | PrintCraft Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="High-quality custom printing for t-shirts, hoodies, tote bags, caps and more. Bulk & single piece orders welcome. Fast delivery and premium finishes.">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="#hero" class="logo">
+        <div class="logo-mark"></div>
+        <div class="logo-text">
+          <span>PrintCraft</span>
+          <small>Custom Clothing & Merch</small>
+        </div>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#process">How it works</a>
+        <a href="#gallery">Samples</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="nav-cta">Get Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-left">
+        <div class="hero-pill">Custom print services for clothing & accessories</div>
+        <h1 class="hero-title">
+          Turn your <span>ideas</span> into
+          <span>wearable designs</span>.
+        </h1>
+        <p class="hero-subtitle">
+          T‑shirts, hoodies, tote bags, caps, uniforms & more. Premium prints, bold colours and fast turnaround for brands, teams and creators.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Get a Free Quote</a>
+          <a href="#gallery" class="btn btn-outline">View Print Samples</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>No minimum for basic prints</span>
+          <span>Bulk pricing for 20+ pieces</span>
+          <span>Shipping across India</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card">
+          <div class="hero-card-top">
+            <p class="hero-tag">Quick Quote</p>
+            <p class="hero-tag-note">Share details & get pricing in minutes*</p>
+          </div>
+          <form class="mini-form" id="miniQuoteForm">
+            <div class="field">
+              <label for="mini-item">What do you want to print?</label>
+              <select id="mini-item" required>
+                <option value="">Select item</option>
+                <option>T-shirts</option>
+                <option>Hoodies / Sweatshirts</option>
+                <option>Tote Bags</option>
+                <option>Caps</option>
+                <option>Workwear / Uniforms</option>
+                <option>Other Merch</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="mini-qty">Approx. quantity</label>
+              <input type="number" id="mini-qty" min="1" placeholder="e.g. 25" required />
+            </div>
+            <div class="field">
+              <label for="mini-contact">WhatsApp / Phone</label>
+              <input type="tel" id="mini-contact" placeholder="+91-" required />
+            </div>
+            <button type="submit" class="btn btn-primary full">Send Quick Enquiry</button>
+            <p class="mini-note">We’ll reply with an estimate & options.</p>
+          </form>
+
+          <div class="hero-card-bottom">
+            <div class="hero-status">
+              <span class="dot"></span>
+              <p>Live production: <strong>42</strong> pieces printing now</p>
+            </div>
+            <p class="hero-rating">★ 4.9 / 5 from 200+ custom orders</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">What we print</p>
+        <h2 class="section-title">Custom printing for clothing & accessories</h2>
+        <p class="section-sub">
+          Mix & match any item with your logo, artwork or message. Perfect for brands, teams, events, giveaways and merch stores.
+        </p>
+      </div>
+
+      <div class="cards-grid">
+        <article class="card">
+          <h3>T‑shirts & Polos</h3>
+          <p>Round neck, V‑neck and collared styles in cotton & blends, with front, back and sleeve placement options.</p>
+          <ul class="card-list">
+            <li>Screen, DTF & vinyl print</li>
+            <li>Unisex & oversized fits</li>
+            <li>No‑crack, long‑lasting colours</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Hoodies & Sweatshirts</h3>
+          <p>Cozy fleece hoodies and crewnecks with bold prints for winter campaigns, teams and creators.</p>
+          <ul class="card-list">
+            <li>Front, back & sleeve prints</li>
+            <li>Embroidery option on request</li>
+            <li>Perfect for merchandise drops</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Tote Bags & Pouches</h3>
+          <p>Reusable cotton totes, jute bags and zipper pouches with crisp prints for your brand or store.</p>
+          <ul class="card-list">
+            <li>Eco‑friendly options</li>
+            <li>Single or double‑sided prints</li>
+            <li>Ideal for events & gifting</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Caps & Headwear</h3>
+          <p>Panel caps, snapbacks and beanies with custom prints or logo transfer for a premium look.</p>
+          <ul class="card-list">
+            <li>Print or patch style</li>
+            <li>Low‑MOQ available</li>
+            <li>Branding for teams & crews</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Workwear & Uniforms</h3>
+          <p>Custom printed uniforms for staff, delivery, hospitality and corporate teams with consistent branding.</p>
+          <ul class="card-list">
+            <li>Name & logo placement</li>
+            <li>Bulk order support</li>
+            <li>Multiple colour choices</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Other Accessories</h3>
+          <p>Aprons, scarves, bandanas, masks and more. Share your idea and we’ll suggest the best base product.</p>
+          <ul class="card-list">
+            <li>On‑demand sourcing</li>
+            <li>Custom packaging options</li>
+            <li>Great for curated gift boxes</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section section-alt" id="process">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">How it works</p>
+        <h2 class="section-title">Simple 4‑step printing process</h2>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step">
+          <div class="step-number">1</div>
+          <h3>Share your idea</h3>
+          <p>Tell us what you want to print, on which product, approximate quantity and timeline.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <h3>Approve design mockup</h3>
+          <p>Send your logo / artwork or ask us to help arrange it. We share a digital mockup for approval.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <h3>Printing in progress</h3>
+          <p>Once approved, we start production using the best suited printing method for your design.</p>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <h3>Packed & delivered</h3>
+          <p>Your order is checked, packed carefully and dispatched with tracking details.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY / SAMPLES -->
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">Sample work</p>
+        <h2 class="section-title">Print styles & mockups</h2>
+        <p class="section-sub">
+          Replace these placeholders with your own mockups or real photographs of printed pieces.
+        </p>
+      </div>
+
+      <div class="mock-grid">
+        <div class="mock mock-large">
+          <div class="mock-label">Oversized T‑shirt print</div>
+        </div>
+        <div class="mock">
+          <div class="mock-label">Tote bag logo</div>
+        </div>
+        <div class="mock">
+          <div class="mock-label">Cap front print</div>
+        </div>
+        <div class="mock">
+          <div class="mock-label">Team hoodie set</div>
+        </div>
+        <div class="mock">
+          <div class="mock-label">Uniform branding</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="section section-alt" id="pricing">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">Starting prices</p>
+        <h2 class="section-title">Transparent pricing for custom prints</h2>
+        <p class="section-sub">
+          Final pricing depends on quantity, colours, print area and fabric type. Use this as a quick guide and contact us for an exact quote.
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+        <div class="price-card">
+          <h3>Basic Tees</h3>
+          <p class="price">From ₹249 / piece</p>
+          <ul>
+            <li>Single‑colour chest print</li>
+            <li>Minimum 10 pieces</li>
+            <li>Cotton / poly‑cotton blend</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline full">Enquire for exact price</a>
+        </div>
+
+        <div class="price-card price-featured">
+          <div class="price-badge">Popular</div>
+          <h3>Brand / Team Packs</h3>
+          <p class="price">Best value</p>
+          <ul>
+            <li>Mixed sizes & colours</li>
+            <li>Front + back print options</li>
+            <li>Perfect for offices & events</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary full">Get custom quote</a>
+        </div>
+
+        <div class="price-card">
+          <h3>Accessories & Merch</h3>
+          <p class="price">On request</p>
+          <ul>
+            <li>Totes, caps, pouches & more</li>
+            <li>Custom packaging available</li>
+            <li>Ideal for creators & brands</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline full">Share your idea</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-head">
+        <p class="section-kicker">FAQ</p>
+        <h2 class="section-title">Frequently asked questions</h2>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">
+            What file format do you need for the artwork?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Vector files (AI, EPS, PDF) or high‑resolution PNG (transparent background) give the best results. If your file is not print‑ready, we’ll help you fix it before printing.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Is there any minimum order quantity (MOQ)?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>For most T‑shirt prints we can start from 1 piece, but bulk pricing is available and recommended for 10, 20 or 50+ pieces. Some items may have a higher MOQ based on the base product.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            How long does production and delivery take?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Standard production time is 5–7 working days after design approval. Express options may be available depending on your order size and product type.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            Do you ship across India?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, we ship pan‑India using trusted courier partners. Shipping charges depend on weight, volume and destination city.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="container contact-grid">
+      <div>
+        <div class="section-head left">
+          <p class="section-kicker">Contact</p>
+          <h2 class="section-title">Start your custom print project</h2>
+        </div>
+        <p class="section-sub left">
+          Replace these contact details with your real business information. Connect the form with your email, CRM or WhatsApp as needed.
+        </p>
+
+        <ul class="contact-list">
+          <li><strong>Phone:</strong> +91-98765-43210</li>
+          <li><strong>WhatsApp:</strong> +91-98765-43210</li>
+          <li><strong>Email:</strong> hello@printcraftstudio.com</li>
+          <li><strong>Address:</strong> 2nd Floor, Market Street, Your City, Your State, 000000</li>
+        </ul>
+
+        <div class="contact-social">
+          <a href="#" target="_blank">Instagram</a>
+          <a href="#" target="_blank">Facebook</a>
+          <a href="#" target="_blank">Behance / Portfolio</a>
+        </div>
+      </div>
+
+      <form class="form" id="contactForm">
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" required />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="phone">Phone / WhatsApp</label>
+            <input type="tel" id="phone" required />
+          </div>
+          <div class="field">
+            <label for="item">Item to print</label>
+            <select id="item" required>
+              <option value="">Select</option>
+              <option>T‑shirts</option>
+              <option>Hoodies / Sweatshirts</option>
+              <option>Tote bags</option>
+              <option>Caps</option>
+              <option>Uniforms</option>
+              <option>Mixed items</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="details">Project details</label>
+          <textarea id="details" rows="3" placeholder="Quantity, colours, deadline, any links to reference designs..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary full">Submit enquiry</button>
+        <p class="form-note">We usually reply within 1 business day.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> PrintCraft Studio. All rights reserved.</p>
+      <p>Custom print services for clothing & accessories.</p>
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/919876543210" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    WA
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
